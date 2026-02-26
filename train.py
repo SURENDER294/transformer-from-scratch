@@ -5,9 +5,6 @@ from torch.utils.data import DataLoader, Dataset
 from transformer import Transformer
 
 
-# ---------------------------------------------------------------------------
-# Toy dataset: copy-task (model learns to copy source sequence to target)
-# ---------------------------------------------------------------------------
 
 class CopyDataset(Dataset):
     """Generates random sequences; target == source (copy task)."""
